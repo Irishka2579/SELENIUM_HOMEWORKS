@@ -14,6 +14,7 @@ public class Class02_HW {
      * close the pop up
      * close the browser (edited)
      */
+
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver","drivers/chromedriver");
         WebDriver driver=new ChromeDriver();
@@ -32,6 +33,6 @@ public class Class02_HW {
        // driver.findElement(By.name("websubmit")).click();
         //driver.findElement(By.className("hu5pjgll lzf7d6o1")).click();
         driver.close();
-       
+
     }
 }
